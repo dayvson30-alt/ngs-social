@@ -8,7 +8,7 @@ const { posts, CTA, TAGS } = require('./posts');
 
 const SITE = 'https://dayvson30-alt.github.io/ngs-social/img/';
 const ROOT = path.join(__dirname, '..');
-const EPOCH = process.env.EPOCH || '2026-10-20';
+const EPOCH = process.env.EPOCH || '2026-10-17';
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
