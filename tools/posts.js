@@ -16,7 +16,7 @@ const TAGS = [
 ];
 
 const posts = [
-  { slug: 'intro-landed', lang: 'en', type: 'card',
+  { slug: 'intro-landed', lang: 'en', type: 'card', photo: 'airport.jpg',
     label: 'MCO AIRPORT TRANSFER', headline: 'Landed at MCO?', accent: 'Your ride is set.',
     body: 'Private ride to your vacation home, Disney hotel or cruise port. Price fixed when you book.',
     en: `Long flight, tired kids, six suitcases. The last thing you want is to figure out a ride in the arrivals hall.\n\nBook your private ride before you fly. Price is fixed when you book, and it takes you straight to your vacation home, Disney hotel or cruise port.`,
@@ -29,7 +29,7 @@ const posts = [
     en: `How much is a ride from Orlando airport to ChampionsGate?\n\nSedan $94. SUV $124. Minivan $138. Sample quotes from October 2026, the exact price shows up on the booking page before you pay.`,
     pt: `Quanto custa do aeroporto de Orlando até ChampionsGate?\n\nSedan $94. SUV $124. Minivan $138. Cotações de exemplo de outubro de 2026, o preço exato aparece na página de reserva antes de pagar.` },
 
-  { slug: 'tip-bags', lang: 'en', type: 'card',
+  { slug: 'tip-bags', lang: 'en', type: 'card', photo: 'night-pickup.jpg',
     label: 'ORLANDO TRAVEL TIP', headline: 'Big family, lots of bags?', accent: 'Count the bags.',
     body: 'Tell us passengers and suitcases when you book. We match the vehicle so nothing rides on a lap.',
     en: `Most airport ride problems start with one number nobody counted: the suitcases.\n\nWhen you book, tell us how many people and how many bags, strollers included. We send a vehicle that fits all of it, so nobody spends the drive with a carry-on on their lap.`,
@@ -41,13 +41,13 @@ const posts = [
     pt: `Chegou em Orlando e quer resolver o transfer sem se enrolar no inglês?\n\nA NGS é de brasileiros. Você reserva online, paga com preço fixo e fala com a gente em português pelo WhatsApp. Do aeroporto até a casa de temporada, hotel da Disney ou porto.`,
     en: `Brazilian family landing in Orlando? We speak Portuguese.\n\nBook online, fixed price, and talk to us on WhatsApp in your language. MCO to your vacation home, Disney hotel or cruise port.` },
 
-  { slug: 'list-why', lang: 'en', type: 'list',
+  { slug: 'list-why', lang: 'en', type: 'list', photo: 'suv-interior.jpg',
     label: 'WHY A PRIVATE RIDE', headline: 'Know it before you land.',
     items: ['Price fixed at booking', 'Just your group in the car', 'Straight to your door', 'Booked online in minutes'],
     en: `Why book a private ride instead of figuring it out at the curb?\n\nThe price is fixed when you book. It's just your group in the car. It goes straight to your door, no stops for other passengers. And you book it online in a few minutes, before you even pack.`,
     pt: `Por que reservar um transfer privativo em vez de resolver na hora?\n\nO preço fica fixo na reserva. Só o seu grupo no carro. Direto para a porta, sem parar para outros passageiros. E você reserva online em poucos minutos, antes mesmo de fazer a mala.` },
 
-  { slug: 'tip-terminal', lang: 'en', type: 'card',
+  { slug: 'tip-terminal', lang: 'en', type: 'card', photo: 'terminal.jpg',
     label: 'MCO TIP', headline: 'Which terminal?', accent: 'A, B or C.',
     body: 'Terminal C is a separate building from A and B. Check your airline before you land.',
     en: `Orlando airport has three terminals, and Terminal C is a separate building from A and B.\n\nCheck which one your airline uses before you land. It saves a long walk with the luggage cart.`,
@@ -60,13 +60,13 @@ const posts = [
     en: `Orlando airport to Disney Springs in a private sedan: $76.\n\nSample quote from October 2026. Put in your exact address and date on the booking page and the real price shows up before you pay.`,
     pt: `Do aeroporto de Orlando até Disney Springs de sedan privativo: $76.\n\nCotação de exemplo de outubro de 2026. Coloque endereço e data na página de reserva e o preço real aparece antes de pagar.` },
 
-  { slug: 'tip-gate', lang: 'en', type: 'card',
+  { slug: 'tip-gate', lang: 'en', type: 'card', photo: 'vacation-home.jpg',
     label: 'VACATION HOME TIP', headline: 'Gated community?', accent: 'Send the code.',
     body: 'Add the house number and gate code to your booking notes. The driver goes right to your door.',
     en: `Most vacation home communities around Davenport and ChampionsGate have a gate.\n\nPut the full address, house number and gate code in your booking notes. The driver goes right to your door instead of waiting at the entrance.`,
     pt: `A maioria dos condomínios de casas de temporada em Davenport e ChampionsGate tem portão.\n\nColoque o endereço completo, número da casa e código do portão nas observações da reserva. O motorista vai direto até a porta em vez de esperar na entrada.` },
 
-  { slug: 'card-247', lang: 'en', type: 'card',
+  { slug: 'card-247', lang: 'en', type: 'card', photo: 'night-pickup.jpg',
     label: '24/7', headline: 'Landing at 1am?', accent: "We're up.",
     body: 'Rides run around the clock. Book ahead and the price is set before you fly.',
     en: `Red-eye landing at 1am? We're up.\n\nRides run 24/7. Book ahead and the price is set before you take off, so you're not negotiating anything half asleep.`,
@@ -91,7 +91,7 @@ const posts = [
     en: `Cruising out of Port Canaveral? Count on about an hour or more from the Orlando area, more on a weekend morning.\n\nCheck your boarding time on the cruise line app and book your pickup with room to spare. The ship won't wait for traffic on 528.`,
     pt: `Vai fazer cruzeiro saindo de Port Canaveral? Conte com cerca de uma hora ou mais saindo da região de Orlando, mais num sábado de manhã.\n\nConfira o horário de embarque no app do cruzeiro e reserve o transfer com folga. O navio não espera o trânsito da 528.` },
 
-  { slug: 'list-vehicles', lang: 'en', type: 'list',
+  { slug: 'list-vehicles', lang: 'en', type: 'list', photo: 'fleet.jpg',
     label: 'PICK YOUR VEHICLE', headline: 'One size does not fit all.',
     items: ['Sedan · couples, light bags', 'SUV · families, more bags', 'Minivan · the whole family', 'Van · groups'],
     en: `Two people with carry-ons and a family of six with checked bags don't need the same car.\n\nSedan for couples and light luggage. SUV for families with more bags. Minivan when the whole family comes. Van for groups. Not sure? Tell us people and bags and we'll point you to the right one.`,
@@ -103,13 +103,13 @@ const posts = [
     en: `Booking your ride from the airport? Book the ride back at the same time.\n\nThe last day of a vacation is already packing, checkout and one more park. Having the airport ride set is one less thing to think about.`,
     pt: `Reservando o transfer de chegada? Reserve a volta junto.\n\nO último dia de viagem já tem mala, checkout e mais um parque. Ter a ida ao aeroporto resolvida é uma preocupação a menos.` },
 
-  { slug: 'pt-primeira-vez', lang: 'pt', type: 'card',
+  { slug: 'pt-primeira-vez', lang: 'pt', type: 'card', photo: 'airport.jpg',
     label: 'PRIMEIRA VEZ EM ORLANDO?', headline: 'Reserve o transfer', accent: 'antes de voar.',
     body: 'Preço fixo, carro só da sua família e atendimento em português.',
     pt: `Primeira viagem para Orlando? Deixe o transfer resolvido antes de embarcar.\n\nVocê chega cansado, com malas e criança, e não precisa negociar nada nem baixar app no desembarque. Preço fixo, carro só da sua família e atendimento em português pelo WhatsApp.`,
     en: `First time in Orlando? Book your airport ride before you fly. Fixed price, private car, and we speak Portuguese too.` },
 
-  { slug: 'tip-tsa', lang: 'en', type: 'card',
+  { slug: 'tip-tsa', lang: 'en', type: 'card', photo: 'terminal.jpg',
     label: 'FLYING HOME', headline: 'Leaving from MCO?', accent: '2 hours. Minimum.',
     body: 'Two hours before domestic flights, three before international. Set the pickup from there.',
     en: `Flying home from Orlando? Security lines at MCO get long, especially on weekends and holidays.\n\nPlan to be at the airport two hours before a domestic flight and three before an international one. Work backwards from that to set your pickup time.`,
@@ -127,7 +127,7 @@ const posts = [
     en: `Morning flight, but check-in isn't until afternoon?\n\nMost hotels, Disney resorts included, hold your luggage before your room is ready. Go straight from the airport, drop the bags at the front desk, and start the vacation.`,
     pt: `Voo de manhã e o check-in só à tarde?\n\nA maioria dos hotéis, inclusive os da Disney, guarda as malas antes do quarto ficar pronto. Vá direto do aeroporto, deixe as malas na recepção e comece a viagem.` },
 
-  { slug: 'price-van', lang: 'en', type: 'price',
+  { slug: 'price-van', lang: 'en', type: 'price', photo: 'fleet.jpg',
     label: 'SAMPLE QUOTE · OCT 2026', headline: 'Big group? MCO → ChampionsGate',
     rows: [['Van', '$189']],
     note: 'Whole group, one vehicle · final price depends on address and date',
@@ -152,7 +152,7 @@ const posts = [
     en: `Cruise day checklist before you walk out the door:\n\nPassports and documents in the carry-on, not the big suitcase. Boarding time confirmed in the cruise line app. Luggage tags on every checked bag. And your ride to the port booked ahead.`,
     pt: `Checklist do dia do cruzeiro antes de sair de casa:\n\nPassaportes e documentos na mala de mão, não na mala grande. Horário de embarque confirmado no app do cruzeiro. Etiqueta em toda mala despachada. E o transfer até o porto já reservado.` },
 
-  { slug: 'card-fixed', lang: 'en', type: 'card',
+  { slug: 'card-fixed', lang: 'en', type: 'card', photo: 'suv-interior.jpg',
     label: 'FIXED PRICE', headline: 'Want the price before you land?', accent: 'Book it fixed.',
     body: 'See the exact price online, pay when you book, nothing changes when you arrive.',
     en: `Want to know what the ride costs before you board the plane?\n\nPut your addresses in the booking page, see the exact price, pay online. The price you saw is the price of the ride.`,
@@ -170,7 +170,7 @@ const posts = [
     en: `What every ride includes:\n\nJust your group in the car. Price fixed at booking. Book and pay online. And a real person on text or WhatsApp if anything changes with your flight or plans.`,
     pt: `O que toda corrida inclui:\n\nSó o seu grupo no carro. Preço fixo na reserva. Reserva e pagamento online. E uma pessoa de verdade no WhatsApp se algo mudar no voo ou nos planos.` },
 
-  { slug: 'pt-casa-temporada', lang: 'pt', type: 'card',
+  { slug: 'pt-casa-temporada', lang: 'pt', type: 'card', photo: 'vacation-home.jpg',
     label: 'CASA DE TEMPORADA', headline: 'Davenport, ChampionsGate,', accent: 'direto na porta.',
     body: 'Mande o endereço e o código do portão. O motorista vai até a casa.',
     pt: `Alugou casa em Davenport ou ChampionsGate?\n\nNa reserva, coloque o endereço completo, número da casa e o código do portão do condomínio. O motorista vai direto até a porta, sem ficar esperando na portaria.`,
