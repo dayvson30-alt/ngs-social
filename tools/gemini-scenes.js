@@ -13,7 +13,9 @@ const scenes = {
   'stroller': 'A friendly driver in a navy polo folding a baby stroller and placing it into the trunk of a clean black minivan while a young mother holds her toddler nearby, smiling, in front of a Florida vacation home with palm trees. Natural afternoon light.',
   'water-service': 'Inside a clean premium black SUV: a professional chauffeur in a dark suit, turned from the front seat, handing a cold bottle of water to a smiling woman passenger in the tan leather back seat. Soft daylight through tinted windows.',
   'park-dropoff': 'A family with two kids wearing sun hats and small backpacks stepping out of a clean black SUV at a theme park guest drop-off area in Florida, excited, the driver holding the door. Colorful entrance gates blurred in the background, no recognizable characters, castles or logos. Sunny morning.',
-  'holiday-home': 'Evening in front of a Florida vacation home decorated with warm Christmas lights, palm trees wrapped in string lights, a clean black SUV parked in the driveway, a family arriving with suitcases, festive and warm mood.',
+  'flight-tracking': 'Orlando airport arrivals area, bright day: a professional chauffeur in a dark navy suit standing near the arrivals exit, checking a flight tracking app on his smartphone (screen facing him, not visible to camera), calm and attentive. Travelers with rolling luggage walking in the soft-focus background, large windows with palm trees outside.',
+  'arrivals-welcome': 'Airport arrivals exit in Orlando: a smiling professional driver in a dark suit holding a blank white welcome sign with no writing, greeting a happy Latin family (parents and two kids) pushing a luggage cart toward him. Warm, welcoming mood, natural daylight, palm trees through the glass.',
+  'holiday-home':'Evening in front of a Florida vacation home decorated with warm Christmas lights, palm trees wrapped in string lights, a clean black SUV parked in the driveway, a family arriving with suitcases, festive and warm mood.',
 };
 module.exports = { scenes };
 if (require.main === module) {

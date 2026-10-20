@@ -14,9 +14,11 @@ const map = {
   'tip-port-to-mco': 'port-pickup.jpg', 'list-cruise': 'port-pickup.jpg',
   'pt-portugues': 'brazilian-family.jpg', 'pt-quanto-custa': 'brazilian-family.jpg',
   'price-disney-springs': 'resort-road.jpg', 'price-championsgate': 'resort-road.jpg',
-  'list-howto': 'phone-booking.jpg', 'tip-return': 'departures.jpg',
+  'list-howto': 'phone-booking.jpg',
   'list-areas': 'community-aerial.jpg', 'card-local': 'community-aerial.jpg',
-  'tip-luggage-hold': 'hotel-entrance.jpg', 'tip-stroller': 'stroller.jpg',
+  'tip-luggage-hold': 'hotel-entrance.jpg',
+  // voo (19/10): substituiram tip-return e tip-stroller
+  'flight-delay': 'flight-tracking.jpg', 'pt-voo': 'arrivals-welcome.jpg',
   'list-what': 'water-service.jpg', 'tip-park': 'park-dropoff.jpg',
   'card-winter': 'holiday-home.jpg',
 };
