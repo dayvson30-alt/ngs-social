@@ -73,10 +73,22 @@ for (const p of posts) {
   slugs.add(p.slug);
   if (!p.en || !p.pt) throw new Error('falta en/pt em ' + p.slug);
 }
+// Google Business: sem telefone nem hashtag (o Google rejeita); o botao Reservar leva ao booking.
+function gbpText(p) {
+  const [first, second] = p.lang === 'pt' ? [p.pt, p.en] : [p.en, p.pt];
+  const flag = p.lang === 'pt' ? '🇺🇸' : '🇧🇷';
+  return `${first}\n\n${flag} ${second}\n\nInstant quote and online booking, 24/7.`;
+}
+const PHOTOS = SITE.replace(/img\/$/, 'photos/');
 const items = posts.map((p, i) => ({
-  slot: i + 1, slug: p.slug, image: SITE + p.slug + '.jpg', caption: caption(p, i), targets: ['fb', 'ig'],
+  slot: i + 1, slug: p.slug, image: SITE + p.slug + '.jpg', caption: caption(p, i), targets: ['fb', 'ig', 'gbp'],
+  gbp: { text: gbpText(p), photo: p.photo ? PHOTOS + p.photo : SITE + p.slug + '.jpg' },
 }));
 for (const it of items) if (it.caption.length > 2200) throw new Error(`legenda > 2200 (limite IG): ${it.slug} ${it.caption.length}`);
+for (const it of items) {
+  if (it.gbp.text.length > 1500) throw new Error(`texto GBP > 1500: ${it.slug} ${it.gbp.text.length}`);
+  if (/\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}|#\w/.test(it.gbp.text)) throw new Error(`texto GBP com telefone/hashtag: ${it.slug}`);
+}
 
 fs.writeFileSync(path.join(ROOT, 'queue.json'), JSON.stringify({ epoch: EPOCH, posts: items }, null, 2) + '\n');
 
