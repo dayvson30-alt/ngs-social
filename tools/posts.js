@@ -77,10 +77,10 @@ const posts = [
     en: `Booking takes about as long as reading this.\n\n1. Go to ngsprivaterides.com/book-now\n2. Enter pickup and drop-off\n3. Pick your vehicle\n4. Pay online\n\nYou get the confirmation by email. Questions? Text or WhatsApp us.`,
     pt: `Reservar leva o tempo de ler este post.\n\n1. Entre em ngsprivaterides.com/book-now\n2. Coloque origem e destino\n3. Escolha o veículo\n4. Pague online\n\nA confirmação chega por e-mail. Dúvida? Chama no WhatsApp.` },
 
-  { slug: 'pt-voo', lang: 'pt', type: 'card', photo: 'arrivals-welcome.jpg',
+  { slug: 'pt-voo', lang: 'pt', type: 'card', photo: 'curb-welcome.jpg',
     label: 'A GENTE ACOMPANHA SEU VOO', headline: 'Voo atrasou ou adiantou?', accent: 'O motorista sabe.',
     body: 'Acompanhamos seu voo em tempo real e o motorista ajusta o horário da busca.',
-    pt: `Medo de o voo atrasar e o motorista ir embora? Com a NGS isso não acontece.\n\nA gente acompanha seu voo em tempo real. Atrasou, adiantou, tanto faz: o motorista ajusta o horário e está te esperando na chegada.\n\nNa reserva, mande o número do voo. O resto é com a gente.`,
+    pt: `Medo de o voo atrasar e o motorista ir embora? Com a NGS isso não acontece.\n\nA gente acompanha seu voo em tempo real. Atrasou, adiantou, tanto faz: o motorista ajusta o horário e está te esperando do lado de fora, na calçada do desembarque.\n\nNa reserva, mande o número do voo. O resto é com a gente.`,
     en: `Worried your flight runs late and the driver leaves? Not with us. We track your flight in real time and adjust the pickup.` },
 
   { slug: 'tip-cruise', lang: 'en', type: 'card', photo: 'cruise.jpg',

@@ -18,7 +18,7 @@ const map = {
   'list-areas': 'community-aerial.jpg', 'card-local': 'community-aerial.jpg',
   'tip-luggage-hold': 'hotel-entrance.jpg',
   // voo (19/10): substituiram tip-return e tip-stroller
-  'flight-delay': 'flight-tracking.jpg', 'pt-voo': 'arrivals-welcome.jpg',
+  'flight-delay': 'flight-tracking.jpg', 'pt-voo': 'curb-welcome.jpg',
   'list-what': 'water-service.jpg', 'tip-park': 'park-dropoff.jpg',
   'card-winter': 'holiday-home.jpg',
 };
