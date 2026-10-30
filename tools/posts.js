@@ -95,7 +95,7 @@ const posts = [
     en: `Two people with carry-ons and a family of six with checked bags don't need the same car.\n\nSedan for couples and light luggage. SUV for families with more bags. Minivan when the whole family comes. Van for groups. Not sure? Tell us people and bags and we'll point you to the right one.`,
     pt: `Um casal com mala de mão e uma família de seis com malas despachadas não precisam do mesmo carro.\n\nSedan para casal e pouca bagagem. SUV para família com mais malas. Minivan quando vem a família toda. Van para grupos. Na dúvida, diga pessoas e malas que a gente indica.` },
 
-  { slug: 'price-disney-springs', lang: 'en', type: 'price', photo: 'resort-road.jpg',
+  { slug: 'price-disney-springs', lang: 'en', type: 'price', photo: 'resort-road-sedan.jpg',
     label: 'SAMPLE QUOTE · OCT 2026', headline: 'MCO → Disney Springs',
     rows: [['Sedan', '$76']],
     note: 'Final price depends on address, date and vehicle',

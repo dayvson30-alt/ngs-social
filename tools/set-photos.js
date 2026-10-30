@@ -13,7 +13,7 @@ const map = {
   'tip-cruise': 'cruise.jpg', 'pt-cruzeiro': 'cruise.jpg',
   'tip-port-to-mco': 'port-pickup.jpg', 'list-cruise': 'port-pickup.jpg',
   'pt-portugues': 'brazilian-family.jpg', 'pt-quanto-custa': 'brazilian-family.jpg',
-  'price-disney-springs': 'resort-road.jpg', 'price-championsgate': 'resort-road.jpg',
+  'price-disney-springs': 'resort-road-sedan.jpg', 'price-championsgate': 'resort-road.jpg',
   'list-howto': 'phone-booking.jpg',
   'list-areas': 'community-aerial.jpg', 'card-local': 'community-aerial.jpg',
   'tip-luggage-hold': 'hotel-entrance.jpg',
